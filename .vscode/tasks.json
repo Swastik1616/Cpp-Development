@@ -23,7 +23,7 @@
             "command": "cmd.exe",
             "args": [
                 "/c",
-                "g++ -std=c++17 -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < Programs/IO/input.txt > Programs/IO/output.txt "
+                "g++ -std=c++17 -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < IO/input.txt > IO/output.txt "
             ],
             "group": {
                 "kind": "build",
